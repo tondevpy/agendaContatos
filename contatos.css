@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background: #212121;
+}
+p {
+  padding: 10px;
+}
+.contatos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+.contato {
+  padding: 10px;
+  background: #171717;
+  color: #fff;
+  border-radius: 4px;
+  margin: 10px;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: #74192f;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+}
+button {
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  background: #74192f;
+  color: #fff;
+  border-radius: 4px;
+}
+button:hover {
+  filter: brightness(1.3);
+  
+}
